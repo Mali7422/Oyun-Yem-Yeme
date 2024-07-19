@@ -1,0 +1,162 @@
+#container {
+    position: relative;
+    width: 750px;
+    height: 500px;
+    margin-top: 20px;
+    margin: 0 auto;
+    border:3px solid black;
+}
+
+#game_area {
+    box-sizing: border-box;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: -3px;
+    margin-left: -3px;
+    width: 450px;
+    height: 450px;
+    border: 3px solid black;
+    background-color: rgb(245, 245, 245);
+    border-radius: 3px;
+}
+
+#reset {
+    padding: 0;
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+}
+
+#reset_button {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    font-weight: bold
+}
+
+#score {
+    padding: 0;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 300px;
+    height: 200px;
+}
+
+.input {
+    width: 50px;
+    margin-top: 20px;
+    text-align: center;
+    pointer-events: none;
+}
+
+#header {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#header h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.player_y_text {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.player_k_text {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#player_y {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-right: 1.5px solid black;
+    text-align: center;
+}
+
+#player_k {
+    position: absolute;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    border-left: 1.5px solid black;
+    text-align: center;
+}
+
+.character {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#player1 {
+    background-color: green;
+    top: 10px;
+    left: 10px;
+}
+
+#player2 {
+    background-color: red;
+    bottom: 10px;
+    right: 10px;
+}
+
+.bait {
+    box-sizing: border-box;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 225px;
+    left: 225px;
+}
+
+.winner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    border-radius: 3px;
+    position: absolute;
+    top: 195px;
+    left: 125px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;text-align: center;
+}
+
+.winner1 {
+    color: red;
+}
+
+.winner2 {
+    color: green;
+}
+
+
